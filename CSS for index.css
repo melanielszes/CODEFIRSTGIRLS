@@ -1,1 +1,24 @@
 /* write your CSS here */
+*{
+	margin: 0;
+}
+
+#images{
+	width: 100%;
+	text-align: center;
+}
+#images img{
+	padding: 1.5em;
+}
+
+
+.nav a{
+	text-decoration: none;
+	color:red;
+	padding: 1em;
+	font-size: 1.5em;
+}
+.nav {
+	text-align: center;
+	border: 2px solid red;
+}
