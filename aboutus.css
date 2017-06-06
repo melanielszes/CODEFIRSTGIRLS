@@ -33,10 +33,10 @@
 	}
 
 .thumbnail {
-	height: 550px
+	height: 500px
 }	
 
-body {
+p{
 	font-family: Helvetica;
 	font-size: 30;
-	}
+}
