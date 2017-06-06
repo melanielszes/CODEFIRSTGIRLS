@@ -1,1 +1,9 @@
 /* write your CSS here */
+body{text-align: center}
+
+.main{
+	width: 80%;
+	
+	margin:auto;
+
+}
