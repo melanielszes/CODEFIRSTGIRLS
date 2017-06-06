@@ -5,7 +5,7 @@
 
 #images{
 
-	width: 50%;
+	width: 60%;
 	text-align: center;
 }
 #images img{
@@ -17,7 +17,7 @@
 	text-decoration: none;
 	color:black;
 	padding: 1em;
-	font-size: 4.5em;
+	font-size: 1em;
 }
 .nav {
 	text-align: center;
@@ -28,6 +28,15 @@
 	display:inline;
 	}
 
-.p {
-	font-size:12;
+.caption {
+	font-size:8;
+	}
+
+.thumbnail {
+	height: 550px
+}	
+
+body {
+	font-family: Helvetica;
+	font-size: 30;
 	}
