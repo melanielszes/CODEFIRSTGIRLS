@@ -33,10 +33,21 @@
 	}
 
 .thumbnail {
-	height: 500px
+	height: 500px;
+	background-color: rgba(255, 255, 255, 0.9)
+
 }	
 
 p{
 	font-family: Helvetica;
-	font-size: 30;
+	font-siz: 30;
+}
+
+body{
+	 background: url("bandw.jpg.JPG") ; 
+	}
+
+.about_row {
+	display: flex;
+	justify-content: space-around;
 }
