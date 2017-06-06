@@ -22,8 +22,24 @@
 <br>
 <br>
   <div id="restaurants">
-	<img src="Images/recsinlondon.jpg">
+	<img src="Images/recsinlondon.jpg" class="active">
+
+	<img src="Images/back2.jpg" />
+
   </div>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+      <script>
+        $(function() {
+        	$("#restaurants").hover(function() {
+        		/* Hover in */
+        		$(this).find('img').toggleClass('active');
+        	}, function() {
+        		/*hover out */
+        		$(this).find('img').toggleClass('active');
+        	});
+        });
+      </script>
 </body>
 
 

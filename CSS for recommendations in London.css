@@ -1,7 +1,20 @@
 div#restaurants {
     display: flex;
     justify-content: center;
-    with:150%
-    hight:150%
+    with:100%;
+    hight:100%;
+    position: relative;
+
+}
+div#restaurants:hover{
+	"back2.jpeg"
 }
 
+#restaurants img {
+	position: absolute;
+	display: none;
+}
+
+#restaurants img.active {
+	display:block;
+}
